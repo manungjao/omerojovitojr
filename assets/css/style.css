@@ -7,6 +7,27 @@
     --white: rgb(235, 235, 235);
     --p: rgb(161, 150, 150)
 }
+.navbar {
+    background: black;
+   background-size: 2px;
+}
+.navbar .nav-link:hover{
+    color: var(--bg3) !important;
+    padding: 10px 28px;
+    background-color: rgb(218, 249, 95);
+    border: 0px solid transparent;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.navbar a.active {
+    color: rgb(12, 11, 11);
+    border-bottom: 2px solid rgba(233, 215, 15, 0.332);
+    background-color: rgba(38, 230, 230, 0.295);
+    color: rgb(9, 218, 225);
+}
 #banner{
     min-height: 100vh;
     background: linear-gradient(to right, hsla(0, 7%, 12%, 0.264), rgb(44, 42,42, 0315)), url('https://img.freepik.com/premium-photo/gamer-playing-desktop-pc-computer-gaming-illustration-commercial-photography_950002-31755.jpg?w=826');
