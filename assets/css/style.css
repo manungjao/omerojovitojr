@@ -7,6 +7,9 @@
     --white: rgb(235, 235, 235);
     --p: rgb(161, 150, 150)
 }
+.nav-item {
+    color: #000000;
+}
 .navbar {
     background: black;
    background-size: 2px;
